@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FCEAE6;
+    font-family: 'Roboto', sans-serif;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    padding: 1.3em;
+    width: 39vh;
+    height: 33em;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: -4px 13px 19px -14px rgba(2,18,18,1);
+    -moz-box-shadow: -4px 13px 19px -14px rgba(2,18,18,1);
+    box-shadow: -4px 13px 19px -14px rgba(2,18,18,1);
+    border-radius: 2.7em;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.icons span{
+    font-size: 0.7em;
+}
+.conexiones img{
+    width: 0.7em;
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 8em;
+}
+.price{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 300;
+}
+.primer{
+    width: 5em;
+    height: 5em;
+    background-color: #F6F5FA;
+    padding: 0.6em;
+    border-radius: 1em;
+    margin-top: 1.3em;
+    text-align: center;
+}
+.primer .monto{
+    margin-top: 1.3em;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.primer .tiempo{
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #B7BCC2;
+}
+.porcen{
+    text-align: center;
+    background-color: #F7931A;
+    color: #FFFFFF;
+    width: 2.8em;
+    height: 1.4em;
+    font-size: 00.8em;
+    position: absolute;
+    margin-left: 15.5em;
+    margin-top: 1.3em;
+    border-radius: 3em;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    margin-top: 3em;
+}
+.boton button{
+    font-weight: 700;
+    padding: 1.3em 2.2em 1.3em 2.2em;
+    border: solid;
+    border-radius: 1em;
+    background-color: #F7931A;
+    color: #FFFFFF;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.9em;
+}
+.menu img{
+    height: 1em;
+}
